@@ -1,4 +1,4 @@
-//sum-without-highest-and-lowest-number.js
+//sum-without-highest-and-lowest-number
 let summ=0;
 
 function sum( ...arr) {
@@ -17,6 +17,6 @@ function sum( ...arr) {
     .reduce((acc,current)=> acc + current , 0);  */
     return arr.sort()
     .slice(1,-1)
-    .reduce((acc,current)=> acc + current , 0);
+    .reduce((acc,current)=> acc + current , 0);    
 }
 console.log(sum(1,2,23,45,99,12,23,45,6));

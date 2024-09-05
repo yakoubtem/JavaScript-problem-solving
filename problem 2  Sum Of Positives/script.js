@@ -11,4 +11,4 @@ function sum( ...numbers) {
     return summ;
 }
 
-console.log(sum( 1,4,5));
+console.log(sum( 1,1,4,5));
