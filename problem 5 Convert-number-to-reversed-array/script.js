@@ -2,8 +2,7 @@
 
 
 
-/*
-*/
+
 
 function digitize(...nbr) {
     return `${nbr} => ${nbr.reverse()}`;
