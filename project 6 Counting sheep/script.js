@@ -13,7 +13,6 @@ function countSheep(arrSheep) {
     return present;
 }*/
 function countSheep(arrSheep) {
-    // TODO May the force be with you
     let present = 0;
     arrSheep.map((m) => {
       if (m === "true") present++;
